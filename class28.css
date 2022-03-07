@@ -1,0 +1,507 @@
+body{
+    overflow-x: hidden;
+}
+/* banner-section */
+.banner-section{
+    background:#f9f9ff ;
+    margin-top: 10px;
+}
+.banner-section .text a{
+    background:#8490ff ;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner-section .text a:hover{
+    background: #63bcfc;
+}
+.banner-section .text{
+    margin-top: 150px;
+}
+.banner-section .text h4{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.banner-section .text h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom:30px;
+}
+.banner-section .text p{
+    margin-bottom: 40px;
+}
+/* about-section */
+.about-section .tex{
+    margin-left: 25px;
+}
+.about-section .tex h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.about-section .tex p{
+    margin-bottom: 30px;
+}
+.about-section .tex a{
+    background:#8490ff ;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.about-section .tex a:hover{
+    background:#63bcfc ;
+}
+/* count-section */
+.count-section{
+    background:#8490ff ;
+    padding: 50px;
+}
+.count-section .div-1{
+    color: #fff;
+}
+/* service-section */
+.service-section{
+    background:#f9f9ff ;
+    padding: 50px;
+}
+.service-section .card .color{
+    border-color:#8490ff ;
+}
+.service-section .card h3{
+    background:#f9f9ff ;
+    line-height: 100px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.service-section .card h5{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* team-section */
+.team-section{
+    padding: 100px;
+    background: #fff;
+}
+.team-section .card h2{
+    font-size: 25px;
+}
+.team-section .card p{
+    margin-bottom: 20px;
+}
+.team-section img{
+    width: 80px;
+    margin-top: -80px;
+    margin-left: -120px;
+}
+.team-section .card a{
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* contact-section */
+.contact-section {
+    background:#f9f9ff ;
+    padding: 80px;
+}
+.contact-section .uper p{
+    font-size: 20px;
+}
+.contact-section .btn-1{
+    color: #fff;
+    background:#17a2b8 ;
+}
+.contact-section .div-22 h5{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.contact-section .div-22 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+/* footer-section */
+.footer-section{
+    background:#04091e ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.footer-section p{
+    padding-top: 10px;
+}
+
+
+
+/*  responsive css  */
+@media(max-width:1320px){
+    .team-section .card p {
+        font-size: 15px;
+    }
+}
+@media(max-width:1250px){
+    .team-section .card p {
+        font-size: 14px;
+    }
+}
+@media(max-width:1215px){
+    .h6, h6 {
+        font-size: 16px;
+    }
+    .about-section .tex h2 {
+        font-size: 36px;
+    }
+    .about-section .tex p {
+        font-size: 15px;
+    }
+}
+@media(max-width:1205px){
+    
+    .banner-section .text h4 {
+        margin-bottom: 26px;
+        font-size: 23px;
+    }
+    .banner-section .text h1 {
+        font-size: 46px;
+    }
+    .banner-section .text p {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+    .banner-section .text a {
+        padding: 8px 16px;
+    }
+    .about-section .tex {
+        margin-top: -8px;
+    }
+    .about-section .tex h2 {
+        font-size: 33px;
+    }
+    .about-section .tex p {
+        width: 571px;
+    }
+    .about-section .tex a {
+        padding: 8px 16px;
+    }
+    .team-section .card p {
+        font-size: 16px;
+    }
+}
+@media(max-width:1190px){
+    .banner-section .text {
+        margin-top: 140px;
+        width: 493px;
+    }
+    img, svg {
+        max-width: 100%;
+        width: 400px;
+    }
+    .card {
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+}
+@media(max-width:1190px){
+    .banner-section .text h4 {
+        margin-bottom: 18px;
+    }
+}
+@media(max-width:1135px){
+    .about-section .tex p {
+        width: 511px;
+    }
+
+}
+@media(max-width:1060px){
+    .banner-section .text h4 {
+        margin-bottom: 24px;
+        font-size: 21px;
+    }
+    .banner-section .text h1 {
+        font-size: 36px;
+    }
+    .banner-section .text p {
+        margin-bottom: 33px;
+        font-size: 14px;
+    }
+    .banner-section .text a {
+        padding: 6px 12px;
+    }
+    img, svg {
+        max-width: 100%;
+        width: 360px;
+    }
+    .about-section .tex p {
+        width: 535px;
+    }
+}
+@media(max-width:1020px){
+    .about-section .tex p {
+        width: 510px;
+    }
+    .contact-section .div-22 p {
+        font-size: 15px;
+    }
+}
+@media(max-width:996px){
+    .about-section .tex {
+        margin-top: -18px;
+    }
+    .about-section .tex h2 {
+        font-size: 32px;
+    }
+    .about-section .tex p {
+        width: 510px;
+    }
+    .service-section .card h5 {
+        font-size: 13px;
+    }
+    .card {
+        margin-bottom: 60px;
+    }
+    .service-section .card h3 {
+        line-height: 85px;
+        width: 85px;
+        height: 85px;
+    }
+    .service-section .card h3 {
+        line-height: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    p {
+        margin-top: 13px;
+        font-size: 18px;
+    }
+    .service-section .card h5 {
+        font-size: 23px;
+    }
+}
+@media(max-width:985px){
+    .container, .container-md, .container-sm {
+        max-width: 830px;
+    }
+    .banner-section .text {
+        margin-top: 96px;
+    }
+    .banner-section .text h4 {
+        margin-bottom: 17px;
+        font-size: 16px;
+    }
+    .banner-section .text h1 {
+        font-size: 32px;
+    }
+    .banner-section .text p {
+        width: 331px;
+    }
+    .banner-section .text a {
+        padding: 5px 9px;
+    }
+    .count-section .div-1 {
+        margin-bottom: 65px;
+    }
+    img, svg {
+        max-width: 100%;
+        width: 329px;
+    }
+    .img-thumbnail {
+        height: 273px;
+    }
+    .about-section .tex p {
+        width: 445px;
+    }
+    .about-section .tex a {
+        padding: 6px 12px;
+    }
+    .div-22.mt-5.ms-5 {
+        text-align: center;
+    }
+}
+@media(max-width:890px){
+    .h6, h6 {
+        font-size: 15px;
+    }
+    .about-section .tex h2 {
+        font-size: 30px;
+    }
+    .about-section .tex p {
+        width: 385px;
+        font-size: 13px;
+    }
+}
+@media(max-width:765px){
+    .banner-section .text {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .banner-section .text h4 {
+        margin-bottom: 17px;
+        font-size: 18px;
+    }
+    .banner-section .text h1 {
+        font-size: 35px;
+    }
+    .banner-section .text p {
+        width: 530px;
+        font-size: 16px;
+    }
+    .about-section .tex {
+        margin-top: 25px;
+        margin-bottom: 28px;
+    }
+    .h6, h6 {
+        font-size: 18px;
+    }
+    .about-section .tex h2 {
+        font-size: 32px;
+    }
+    .about-section .tex p {
+        width: 510px;
+        font-size: 14px;
+    }
+    .footer-section p {
+        font-size: 17px;
+    }
+}
+@media(max-width:670px){
+@media(max-width:596px){
+    .banner-section .text {
+        margin-left: 25px;
+    }
+    .banner-section .text h4 {
+        margin-bottom: 17px;
+        font-size: 17px;
+    }
+    .banner-section .text h1 {
+        font-size: 33px;
+    }
+    .banner-section .text p {
+        width: 520px;
+        font-size: 14px;
+    }
+    .di1 {
+        margin-left: 25px;
+    }
+    .about-section .tex h2 {
+        font-size: 31px;
+    }
+    .about-section .tex p {
+        width: 432px;
+        font-size: 14px;
+    }
+    .footer-section p {
+        font-size: 14px;
+    }
+}
+@media(max-width:570px){
+    .contact-section .div-22 h5 {
+        font-size: 25px;
+    }
+    .contact-section .div-22 p {
+        font-size: 13px;
+    }
+}
+@media(max-width:518px){
+    .banner-section .text p {
+        width: 370px;
+    }
+    .service-section .card h5 {
+        font-size: 20px;
+    }
+    .service-section .card h3 {
+        line-height: 85px;
+        width: 85px;
+        height: 85px;
+    }
+}
+@media(max-width:460px){
+    .banner-section .text {
+        width: 380px;
+    }
+    .about-section .tex p {
+        width: 350px;
+    }
+    .service-section .card h5 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media(max-width:385px){
+    .h2, h2 {
+        font-size: 23px;
+        font-weight: 600;
+    }
+}
+@media(max-width:370px){
+    .banner-section .text {
+        margin-left: 17px;
+        width: 200px;
+    }
+    .banner-section .text h1 {
+        font-size: 31px;
+    }
+    .banner-section .text p {
+        width: 318px;
+    }
+    .about-section .tex h2 {
+        font-size: 26px;
+    }
+    .about-section .tex p {
+        width: 309px;
+    }
+}
+@media(max-width:345px){
+    .banner-section .text h4 {
+        margin-bottom: 14px;
+        font-size: 16px;
+    }
+    .banner-section .text h1 {
+        font-size: 27px;
+    }
+    .banner-section .text p {
+        width: 291px;
+    }
+    .banner-section .text a {
+        padding: 4px 7px;
+    }
+    .about-section .tex h2 {
+        font-size: 27px;
+    }
+    .about-section .tex p {
+        width: 300px;
+    }
+}
+@media(max-width:320px){
+    .banner-section .text {
+        margin-top: 60px;
+    }
+    .banner-section .text h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .banner-section .text p {
+        width: 247px;
+    }
+    .about-section .tex {
+        width: 250px;
+        margin-left: 10px;
+    }
+    .about-section .tex h2 {
+        font-size: 22px;
+    }
+    .about-section .tex p {
+        width: 250px;
+        font-size: 13px;
+    }
+}
